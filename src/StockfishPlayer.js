@@ -4,9 +4,9 @@
  * License: MIT, see file 'LICENSE'
  */
 
-import {ChessConsolePlayer} from "chess-console/src/ChessConsolePlayer.js"
+import {ChessConsolePlayer} from "chess-pattern/src/ChessConsolePlayer.js"
 import {Observe} from "cm-web-modules/src/observe/Observe.js"
-import {CONSOLE_MESSAGE_TOPICS} from "chess-console/src/ChessConsole.js"
+import {CONSOLE_MESSAGE_TOPICS} from "chess-pattern/src/ChessConsole.js"
 import {PolyglotRunner} from "cm-engine-runner/src/PolyglotRunner.js"
 import {ENGINE_STATE} from "cm-engine-runner/src/EngineRunner.js"
 import {StockfishRunner} from "cm-engine-runner/src/StockfishRunner.js"

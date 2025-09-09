@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="container-fluid">
-    <h1>Stockfish for <a href="https://github.com/shaack/chess-console">chess-console</a></h1>
+    <h1>Stockfish for chess-console (v 0.1)</h1>
     <div id="console-container" class="mb-3">
         <div class="row chess-console">
             <div class="chess-console-center col-xl-7 order-xl-2 col-lg-8 order-lg-1 order-md-1 col-md-12">
@@ -73,7 +73,7 @@
 <script type="importmap">
     {
         "imports": {
-            "chess-console/": "./node_modules/chess-console/",
+            "chess-pattern/": "./node_modules/chess-console/",
             "cm-engine-runner/": "./node_modules/cm-engine-runner/",
             "cm-polyglot/": "./node_modules/cm-polyglot/",
             "cm-chessboard/": "./node_modules/cm-chessboard/",
@@ -88,15 +88,15 @@
 <!-- @formatter:on -->
 <script type="module">
 
-    import {ChessConsole} from "chess-console/src/ChessConsole.js"
-    import {LocalPlayer} from "chess-console/src/players/LocalPlayer.js"
-    import {Board} from "chess-console/src/components/Board.js"
-    import {GameStateOutput} from "chess-console/src/components/GameStateOutput.js"
-    import {History} from "chess-console/src/components/History.js"
-    import {CapturedPieces} from "chess-console/src/components/CapturedPieces.js"
-    import {HistoryControl} from "chess-console/src/components/HistoryControl.js"
-    import {Persistence} from "chess-console/src/components/Persistence.js"
-    import {Sound} from "chess-console/src/components/Sound.js"
+    import {ChessConsole} from "chess-pattern/src/ChessConsole.js"
+    import {LocalPlayer} from "chess-pattern/src/players/LocalPlayer.js"
+    import {Board} from "chess-pattern/src/components/Board.js"
+    import {GameStateOutput} from "chess-pattern/src/components/GameStateOutput.js"
+    import {History} from "chess-pattern/src/components/History.js"
+    import {CapturedPieces} from "chess-pattern/src/components/CapturedPieces.js"
+    import {HistoryControl} from "chess-pattern/src/components/HistoryControl.js"
+    import {Persistence} from "chess-pattern/src/components/Persistence.js"
+    import {Sound} from "chess-pattern/src/components/Sound.js"
 
     import {StockfishGameControl} from "./src/StockfishGameControl.js"
     import {StockfishPlayer} from "./src/StockfishPlayer.js"
